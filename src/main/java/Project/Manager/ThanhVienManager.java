@@ -1,6 +1,5 @@
 package Project.Manager;
 
-import Project.Model.KhaiTu;
 import Project.Model.ThanhVien;
 
 import java.util.ArrayList;

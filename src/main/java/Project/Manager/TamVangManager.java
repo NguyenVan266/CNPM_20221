@@ -1,7 +1,5 @@
 package Project.Manager;
 
-import Project.Model.KhaiTu;
-import Project.Model.TamTru;
 import Project.Model.TamVang;
 
 import java.util.ArrayList;

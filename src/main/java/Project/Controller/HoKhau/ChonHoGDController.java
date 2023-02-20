@@ -1,12 +1,9 @@
 package Project.Controller.HoKhau;
 
 import Project.DAO.DataAccess;
-import Project.Manager.HoKhauManager;
 import Project.Manager.NhanKhauManager;
 import Project.Model.HoKhau;
-import Project.Model.Phi;
 import javafx.beans.property.*;
-import javafx.beans.value.ObservableValue;
 import javafx.collections.FXCollections;
 import javafx.collections.ObservableList;
 import javafx.collections.transformation.FilteredList;

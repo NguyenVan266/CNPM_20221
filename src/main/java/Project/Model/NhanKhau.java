@@ -45,19 +45,13 @@ public class NhanKhau {
         this.dienThoai = dienThoai;
     }
 
-    public String getDienThoai() {
-        return dienThoai;
-    }
-
-    public void setDienThoai(String dienThoai) {
-        this.dienThoai = dienThoai;
-    }
-
     public NhanKhau() {
         this.setGhiChu(" ");
         this.setDienThoai(" ");
-        this.setIdNguoiXoa(1);
         this.setIdNguoiTao(1);
+        this.setQuocTich("Việt Nam");
+        this.setDanToc("Kinh");
+        this.setTonGiao("Không");
     }
 
     public String getLyDoXoa() {
@@ -210,5 +204,13 @@ public class NhanKhau {
 
     public void setIdNguoiXoa(int idNguoiXoa) {
         this.idNguoiXoa = idNguoiXoa;
+    }
+
+    public String getDienThoai() {
+        return dienThoai;
+    }
+
+    public void setDienThoai(String dienThoai) {
+        this.dienThoai = dienThoai;
     }
 }
