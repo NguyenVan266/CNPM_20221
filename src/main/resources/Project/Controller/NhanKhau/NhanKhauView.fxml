@@ -1,5 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
+<?import java.lang.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
 <?import javafx.scene.ParallelCamera?>
 <?import javafx.scene.PerspectiveCamera?>
 <?import javafx.scene.PointLight?>
@@ -11,7 +16,7 @@
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.text.Font?>
 
-<AnchorPane prefHeight="750.0" prefWidth="1031.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Project.Controller.NhanKhau.NhanKhauController">
+<AnchorPane prefHeight="702.0" prefWidth="1030.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Project.Controller.NhanKhau.NhanKhauController">
    <children>
       <TableView fx:id="tableView" layoutX="20.0" layoutY="120.0" onMouseClicked="#clickAction" prefHeight="0.0" prefWidth="0.0" AnchorPane.bottomAnchor="120.0" AnchorPane.leftAnchor="60.0" AnchorPane.rightAnchor="60.0" AnchorPane.topAnchor="170.0">
         <columns>
@@ -58,7 +63,7 @@
       <ParallelCamera />
       <PointLight color="CHARTREUSE" lightOn="true" />
       <PointLight color="CHARTREUSE" lightOn="true" />
-      <Label alignment="CENTER" layoutX="423.0" layoutY="66.0" prefHeight="80.0" prefWidth="800.0" text="Nhân Khẩu" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="20.0">
+      <Label alignment="CENTER" layoutX="423.0" layoutY="23.0" prefHeight="77.0" prefWidth="1031.0" text="Nhân Khẩu" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="23.0">
          <font>
             <Font size="29.0" />
          </font>
