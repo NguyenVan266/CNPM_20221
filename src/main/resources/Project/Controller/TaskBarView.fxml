@@ -10,19 +10,19 @@
 <?import javafx.scene.layout.VBox?>
 <?import javafx.scene.text.Font?>
 
-<AnchorPane prefHeight="750.0" prefWidth="1350.0" style="-fx-background-color: #fff;" styleClass="navbar" stylesheets="@stylecss/login.css" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Project.Controller.TaskBarController">
+<AnchorPane prefHeight="750.0" prefWidth="1350.0" style="-fx-background-color: #fff;" styleClass="navbar" stylesheets="@stylecss/login.css" xmlns="http://javafx.com/javafx/15.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Project.Controller.TaskBarController">
    <children>
-      <VBox fx:id="vbox" prefHeight="750.0" prefWidth="300.0" style="-fx-background-color: #295495;" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.topAnchor="0.0">
+      <VBox prefHeight="750.0" prefWidth="300.0" style="-fx-background-color: #DAF7C9;" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.topAnchor="0.0">
          <children>
             <Pane layoutY="50.0" prefHeight="160.0" prefWidth="300.0">
                <children>
-                  <ImageView fitHeight="124.0" fitWidth="132.0" layoutX="78.0" layoutY="18.0" pickOnBounds="true" preserveRatio="true">
+                  <ImageView fitHeight="77.0" fitWidth="94.0" layoutX="102.0" layoutY="42.0" pickOnBounds="true" preserveRatio="true">
                      <image>
                         <Image url="@image/user2.png" />
                      </image>
                   </ImageView>
                </children></Pane>
-            <Button fx:id="TrangChu" alignment="BASELINE_LEFT" contentDisplay="CENTER" mnemonicParsing="false" onAction="#aTrangChu" prefHeight="60.0" prefWidth="300.0" text="Trang chủ" textFill="WHITE">
+            <Button fx:id="TrangChu" alignment="BASELINE_LEFT" contentDisplay="CENTER" mnemonicParsing="false" onAction="#aTrangChu" prefHeight="60.0" prefWidth="300.0" style="-fx-background-color: #DAF7C9; -fx-border-color: #FFFFFF;" text="Trang chủ">
                <font>
                   <Font size="24.0" />
                </font>
@@ -36,28 +36,28 @@
                   <String fx:value="button" />
                   <String fx:value="button" />
                </styleClass></Button>
-            <Button fx:id="NhanKhau" alignment="BASELINE_LEFT" mnemonicParsing="false" onAction="#aNhanKhau" prefHeight="60.0" prefWidth="300.0" text="Nhân khẩu" textFill="WHITE">
+            <Button fx:id="NhanKhau" alignment="BASELINE_LEFT" mnemonicParsing="false" onAction="#aNhanKhau" prefHeight="60.0" prefWidth="300.0" style="-fx-background-color: #DAF7C9; -fx-border-color: #FFFFFF;" text="Nhân khẩu">
                <font>
                   <Font size="24.0" />
                </font>
                <padding>
                   <Insets left="80.0" />
                </padding></Button>
-            <Button fx:id="HoKhau" alignment="BASELINE_LEFT" mnemonicParsing="false" onAction="#aHoKhau" prefHeight="60.0" prefWidth="300.0" text="Hộ khẩu" textFill="WHITE">
+            <Button fx:id="HoKhau" alignment="BASELINE_LEFT" mnemonicParsing="false" onAction="#aHoKhau" prefHeight="60.0" prefWidth="300.0" style="-fx-background-color: #DAF7C9; -fx-border-color: #FFFFFF;" text="Hộ khẩu">
                <font>
                   <Font size="24.0" />
                </font>
                <padding>
                   <Insets left="80.0" />
                </padding></Button>
-            <Button fx:id="KhoanThu" alignment="BASELINE_LEFT" mnemonicParsing="false" onAction="#aKhoanThu" prefHeight="60.0" prefWidth="300.0" text="Khoản thu" textFill="WHITE">
+            <Button fx:id="KhoanThu" alignment="BASELINE_LEFT" mnemonicParsing="false" onAction="#aKhoanThu" prefHeight="60.0" prefWidth="300.0" style="-fx-background-color: #DAF7C9; -fx-border-color: #FFFFFF;" text="Khoản thu">
                <font>
                   <Font size="24.0" />
                </font>
                <padding>
                   <Insets left="80.0" />
                </padding></Button>
-            <Button fx:id="NopTien" alignment="BASELINE_LEFT" mnemonicParsing="false" onAction="#aNopTien" prefHeight="60.0" prefWidth="300.0" text="Nộp tiền" textFill="WHITE">
+            <Button fx:id="NopTien" alignment="BASELINE_LEFT" mnemonicParsing="false" onAction="#aNopTien" prefHeight="60.0" prefWidth="300.0" style="-fx-background-color: #DAF7C9; -fx-border-color: #FFFFFF;" text="Nộp tiền">
                <font>
                   <Font size="24.0" />
                </font>
