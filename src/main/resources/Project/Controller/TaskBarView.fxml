@@ -1,5 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
+<?import java.lang.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
 <?import java.lang.String?>
 <?import javafx.geometry.Insets?>
 <?import javafx.scene.control.Button?>
@@ -10,11 +16,11 @@
 <?import javafx.scene.layout.VBox?>
 <?import javafx.scene.text.Font?>
 
-<AnchorPane prefHeight="750.0" prefWidth="1350.0" style="-fx-background-color: #fff;" styleClass="navbar" stylesheets="@stylecss/login.css" xmlns="http://javafx.com/javafx/15.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Project.Controller.TaskBarController">
+<AnchorPane prefHeight="750.0" prefWidth="1350.0" style="-fx-background-color: #fff;" styleClass="navbar" stylesheets="@stylecss/login.css" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Project.Controller.TaskBarController">
    <children>
-      <VBox fx:id="vbox" layoutY="-13.0" prefHeight="763.0" prefWidth="304.0" style="-fx-background-color: #daf7c9;" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.topAnchor="-13.0">
+      <VBox fx:id="vbox" layoutY="-3.0" minHeight="-Infinity" prefHeight="750.0" prefWidth="304.0" style="-fx-background-color: #daf7c9;" AnchorPane.bottomAnchor="3.0" AnchorPane.leftAnchor="0.0" AnchorPane.topAnchor="-3.0">
          <children>
-            <Pane layoutY="50.0" prefHeight="160.0" prefWidth="300.0">
+            <Pane layoutY="50.0" prefHeight="155.0" prefWidth="304.0">
                <children>
                   <ImageView fitHeight="94.0" fitWidth="94.0" layoutX="96.0" layoutY="33.0" pickOnBounds="true" preserveRatio="true">
                      <image>

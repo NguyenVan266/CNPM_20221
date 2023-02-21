@@ -1,5 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
 <?import javafx.scene.control.Button?>
 <?import javafx.scene.control.Label?>
 <?import javafx.scene.control.TableColumn?>
@@ -8,32 +12,32 @@
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.text.Font?>
 
-<AnchorPane prefHeight="650.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Project.Controller.Phi.NopTienController">
+<AnchorPane prefHeight="700.0" prefWidth="1030.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Project.Controller.Phi.NopTienController">
    <children>
-      <TableView fx:id="tableView" layoutX="83.0" layoutY="119.0" prefHeight="472.0" prefWidth="802.0" AnchorPane.bottomAnchor="120.0" AnchorPane.leftAnchor="60.0" AnchorPane.rightAnchor="60.0" AnchorPane.topAnchor="170.0">
+      <TableView fx:id="tableView" layoutX="83.0" layoutY="178.0" prefHeight="490.0" prefWidth="720.0" AnchorPane.bottomAnchor="32.0" AnchorPane.leftAnchor="60.0" AnchorPane.rightAnchor="250.0" AnchorPane.topAnchor="178.0">
         <columns>
           <TableColumn fx:id="colChuHo" prefWidth="131.83174514770508" text="Tên chủ hộ nộp" />
           <TableColumn fx:id="colKhoanThu" prefWidth="138.1682586669922" text="Tên khoản thu" />
-            <TableColumn fx:id="colLoaiKhoanThu" prefWidth="120.04867553710938" text="Loại khoản thu" />
-            <TableColumn fx:id="colDaNop" prefWidth="138.47274780273438" text="Đã nộp" />
-            <TableColumn fx:id="colNgayNop" prefWidth="151.0272216796875" text="Ngày nộp" />
+            <TableColumn fx:id="colLoaiKhoanThu" prefWidth="143.0" text="Loại khoản thu" />
+            <TableColumn fx:id="colDaNop" prefWidth="140.0" text="Đã nộp" />
+            <TableColumn fx:id="colNgayNop" prefWidth="165.0" text="Ngày nộp" />
         </columns>
       </TableView>
-      <Button fx:id="btnThem" layoutX="915.0" layoutY="159.0" mnemonicParsing="false" onAction="#actThem" prefHeight="50.0" prefWidth="140.0" text="Thêm mới" textFill="WHITE" AnchorPane.bottomAnchor="50.0" AnchorPane.leftAnchor="60.0">
+      <Button fx:id="btnThem" layoutX="824.0" layoutY="178.0" mnemonicParsing="false" onAction="#actThem" prefHeight="50.0" prefWidth="140.0" style="-fx-background-color: #6E6E6E;" text="Thêm mới" textFill="WHITE" AnchorPane.bottomAnchor="472.0" AnchorPane.leftAnchor="824.0">
          <font>
             <Font size="18.0" />
          </font></Button>
-      <TextField fx:id="txtSearch" layoutX="83.0" layoutY="72.0" onKeyPressed="#actSearch" prefHeight="35.0" prefWidth="392.0" promptText="Tìm Kiếm" AnchorPane.leftAnchor="60.0" AnchorPane.rightAnchor="60.0" AnchorPane.topAnchor="120.0">
+      <TextField fx:id="txtSearch" layoutX="83.0" layoutY="72.0" onKeyPressed="#actSearch" prefHeight="39.0" prefWidth="720.0" promptText="Tìm Kiếm" AnchorPane.leftAnchor="60.0" AnchorPane.rightAnchor="250.0" AnchorPane.topAnchor="120.0">
          <font>
             <Font size="18.0" />
          </font></TextField>
-      <Button fx:id="btnXoa" layoutX="915.0" layoutY="268.0" mnemonicParsing="false" onAction="#actXoa" prefHeight="50.0" prefWidth="140.0" text="Xóa" textFill="WHITE" AnchorPane.bottomAnchor="50.0" AnchorPane.rightAnchor="60.0">
+      <Button fx:id="btnXoa" layoutX="824.0" layoutY="262.0" mnemonicParsing="false" onAction="#actXoa" prefHeight="50.0" prefWidth="140.0" style="-fx-background-color: #6E6E6E;" text="Xóa" textFill="WHITE" AnchorPane.bottomAnchor="388.0" AnchorPane.rightAnchor="66.0">
          <font>
             <Font size="18.0" />
          </font></Button>
-      <Label alignment="CENTER" layoutY="52.0" prefHeight="80.0" prefWidth="800.0" text="Nộp Tiền" AnchorPane.topAnchor="20.0">
+      <Label alignment="CENTER" layoutY="14.0" prefHeight="80.0" prefWidth="1030.0" text="Nộp Tiền" textAlignment="RIGHT" AnchorPane.topAnchor="14.0">
          <font>
-            <Font size="29.0" />
+            <Font name="System Bold" size="29.0" />
          </font>
       </Label>
    </children>

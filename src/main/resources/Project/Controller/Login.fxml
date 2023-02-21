@@ -70,9 +70,9 @@
             <Insets right="50.0" />
          </GridPane.margin></PasswordField>
        <!-- Add Submit Button -->
-       <Button fx:id="submitButton" defaultButton="true" onAction="#login" prefHeight="50.0" prefWidth="140.0" text="Đăng nhập" textFill="#070225" GridPane.columnSpan="3" GridPane.halignment="CENTER" GridPane.rowIndex="5" GridPane.rowSpan="1">
+       <Button fx:id="submitButton" defaultButton="true" onAction="#login" prefHeight="50.0" prefWidth="140.0" text="Đăng nhập" textFill="#432bdd" GridPane.columnSpan="3" GridPane.halignment="CENTER" GridPane.rowIndex="5" GridPane.rowSpan="1">
            <GridPane.margin>
-               <Insets bottom="20.0" left="240.0" top="20.0" />
+               <Insets bottom="20.0" left="260.0" top="20.0" />
            </GridPane.margin>
          <font>
             <Font size="18.0" />
