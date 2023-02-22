@@ -4161,8 +4161,8 @@ instanceKlass org/apache/felix/scr/impl/metadata/ReferenceMetadata
 instanceKlass org/apache/felix/scr/impl/metadata/ServiceMetadata
 instanceKlass org/apache/felix/scr/impl/metadata/ComponentMetadata
 instanceKlass org/apache/felix/scr/impl/xml/XmlConstants
-instanceKlass com/sun/org/apache/xerces/internal/impl/Constants$ArrayEnumeration
-instanceKlass com/sun/org/apache/xerces/internal/impl/Constants
+instanceKlass com/sun/org/apache/xerces/internal/impl/Project.Constants.Constants$ArrayEnumeration
+instanceKlass com/sun/org/apache/xerces/internal/impl/Project.Constants.Constants
 instanceKlass com/sun/org/apache/xerces/internal/parsers/AbstractSAXParser$LocatorProxy
 instanceKlass org/xml/sax/ext/Locator2
 instanceKlass org/xml/sax/Locator

@@ -4,6 +4,7 @@ import Project.Controller.Main;
 import Project.DAO.DataAccess;
 import Project.Manager.NhanKhauManager;
 import Project.Model.NhanKhau;
+import Project.Constants.*;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.scene.control.*;
@@ -17,7 +18,7 @@ public class ThemNhanKhauController {
     private TextField bietDanh;
 
     @FXML
-    private TextField danToc;
+    private ComboBox danToc;
 
     @FXML
     private DatePicker dateNgaySinh;
@@ -32,7 +33,7 @@ public class ThemNhanKhauController {
     private TextArea ghiChu;
 
     @FXML
-    private TextField gioiTinh;
+    private ComboBox gioiTinh;
 
     @FXML
     private TextField hoChieuSo;
@@ -44,10 +45,10 @@ public class ThemNhanKhauController {
     private Button huy;
 
     @FXML
-    private TextField nguyenQuan;
+    private ComboBox nguyenQuan;
 
     @FXML
-    private TextField noiSinh;
+    private ComboBox noiSinh;
 
     @FXML
     private TextField noiThuongTru;
@@ -66,6 +67,18 @@ public class ThemNhanKhauController {
     NhanKhau nhanKhau = new NhanKhau();
 
     @FXML
+    public void initialize() {
+        gioiTinh.getItems().removeAll(gioiTinh.getItems());
+        gioiTinh.getItems().addAll(Constants.GIOITINH);
+        nguyenQuan.getItems().removeAll(nguyenQuan.getItems());
+        nguyenQuan.getItems().addAll(Constants.TINHTHANH);
+        noiSinh.getItems().removeAll(noiSinh.getItems());
+        noiSinh.getItems().addAll(Constants.TINHTHANH);
+        danToc.getItems().removeAll(danToc.getItems());
+        danToc.getItems().addAll(Constants.DANTOC);
+    }
+
+    @FXML
     void actHuy(ActionEvent event) {
         Stage stage = (Stage) huy.getScene().getWindow();
         stage.close();
@@ -76,6 +89,7 @@ public class ThemNhanKhauController {
         if(checkValid()){
             try {
                 nhanKhau.setIdNguoiTao(Main.user.getID());
+                nhanKhau.setIdNguoiXoa(Main.user.getID());
                 nhanKhau.setID(DataAccess.nhanKhauDAO.getNewID());
                 nhanKhau.setHoTen(hoVaTen.getText());
                 nhanKhau.setGhiChu(ghiChu.getText());
@@ -87,11 +101,11 @@ public class ThemNhanKhauController {
                 nhanKhau.setSoHoChieu(hoChieuSo.getText());
                 nhanKhau.setSoCMT_CCCD(Integer.parseInt(soCMT_CCCD.getText()));
                 nhanKhau.setQuocTich(quocTich.getText());
-                nhanKhau.setNguyenQuan(nguyenQuan.getText());
-                nhanKhau.setGioiTinh(gioiTinh.getText());
-                nhanKhau.setNoiSinh(noiSinh.getText());
+                nhanKhau.setNguyenQuan(nguyenQuan.getValue().toString());
+                nhanKhau.setGioiTinh(gioiTinh.getValue().toString());
+                nhanKhau.setNoiSinh(noiSinh.getValue().toString());
                 nhanKhau.setNgaySinh(java.sql.Date.valueOf(dateNgaySinh.getValue()));
-                nhanKhau.setDanToc(danToc.getText());
+                nhanKhau.setDanToc(danToc.getValue().toString());
 
                 DataAccess.nhanKhauDAO.insert(nhanKhau);
                 NhanKhauManager.nhanKhauList.add(nhanKhau);
@@ -131,15 +145,17 @@ public class ThemNhanKhauController {
             return false;
         }else if(dateNgaySinh.getValue() == null){
             return false;
-        }else if(nguyenQuan.getText().isEmpty()){
+        }else if(danToc.getValue().toString() == ""){
+            return false;
+        }else if(nguyenQuan.getValue().toString() == ""){
             return false;
         }else if(soCMT_CCCD.getText().isEmpty()){
             return false;
         }else if(noiThuongTru.getText().isEmpty()){
             return false;
-        }else if(noiSinh.getText().isEmpty()){
+        }else if(noiSinh.getValue().toString() == ""){
             return false;
-        }else if(gioiTinh.getText().isEmpty()){
+        }else if(gioiTinh.getValue().toString() == ""){
             return false;
         }else if(tonGiao.getText().isEmpty()){
             return false;

@@ -12,3 +12,8 @@
 - Chạy tất cả các lệnh sql trong thư mục **Database**
 - Ấn Run là được
 - Có thay đổi thì commit và push
+
+# Các màu nút (style guideline)
+
+- Màu xanh lá: #1D964B
+- Màu đỏ: #E55249

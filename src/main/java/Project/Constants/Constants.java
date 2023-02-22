@@ -1,0 +1,8 @@
+package Project.Constants;
+
+public class Constants {
+    //private Project.Constants.Constants(){};
+    public static final String GIOITINH[] = {"Nam","Nữ"};
+    public static final String TINHTHANH[] = {"An Giang", "Bà Rịa - Vũng Tàu", "Bạc Liêu", "Bắc Giang", "Bắc Kạn", "Bắc Ninh", "Bến Tre", "Bình Dương", "Bình Định", "Bình Phước", "Bình Thuận", "Cà Mau", "Cao Bằng", "Đắk Lắk", "Đắk Nông", "Điện Biên", "Đồng Nai", "Đồng Tháp", "Gia Lai", "Hà Giang", "Hà Nam", "Hà Tĩnh", "Hải Dương", "Hậu Giang", "Hoà Bình", "Hưng Yên", "Kiên Giang", "Kon Tum", "Khánh Hòa", "Lai Châu", "Lạng Sơn", "Lào Cai", "Lâm Đồng", "Long An", "Nam Định", "Ninh Bình", "Ninh Thuận", "Nghệ An", "Phú Thọ", "Phú Yên", "Quảng Bình", "Quảng Nam", "Quảng Ninh", "Quảng Ngãi", "Quảng Trị", "Sóc Trăng", "Sơn La", "Tây Ninh", "Tiền Giang", "TP. Cần Thơ", "TP. Đà Nẵng", "TP. Hà Nội", "TP. Hải Phòng", "TP. Hồ Chí Minh", "Tuyên Quang", "Thái Bình", "Thái Nguyên", "Thanh Hóa", "Thừa Thiên Huế", "Trà Vinh", "Vĩnh Long", "Vĩnh Phúc", "Yên Bái"};
+    public static final String DANTOC[] = {"Kinh", "Tày", "Thái", "Hoa", "Khơ-me", "Mường", "Nùng", "HMông", "Dao", "Gia-rai", "Ngái", "Ê-đê", "Ba na", "Xơ-Đăng", "Sán Chay", "Cơ-ho", "Chăm", "Sán Dìu", "Hrê", "Mnông", "Ra-glai", "Xtiêng", "Bru-Vân Kiều", "Thổ", "Giáy", "Cơ-tu", "Gié Triêng", "Mạ", "Khơ-mú", "Co", "Tà-ôi", "Chơ-ro", "Kháng", "Xinh-mun", "Hà Nhì", "Chu ru", "Lào", "La Chí", "La Ha", "Phù Lá", "La Hủ", "Lự", "Lô Lô", "Chứt", "Mảng", "Pà Thẻn", "Co Lao", "Cống", "Bố Y", "Si La", "Pu Péo", "Brâu", "Ơ Đu", "Rơ măm"};
+}
