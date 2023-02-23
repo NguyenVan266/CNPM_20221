@@ -15,5 +15,5 @@
 
 # Các màu nút (style guideline)
 
-- Màu xanh lá: #1D964B
 - Màu đỏ: #E55249
+- Màu xanh lá: #1D964B

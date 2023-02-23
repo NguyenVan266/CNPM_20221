@@ -160,7 +160,7 @@ public class NhanKhauController implements Initializable {
     void actDSTamVang(ActionEvent event) {
         ObservableList<NhanKhau> dataTamVang = FXCollections.observableArrayList();
         for(NhanKhau x : NhanKhauManager.nhanKhauList){
-            if(x.getGhiChu().equals("Tam vang")){
+            if(x.getGhiChu() != null && x.getGhiChu().equals("Tạm vắng")) {
                 dataTamVang.add(x);
             }
         }

@@ -128,7 +128,7 @@ public class DKTamVangController {
     NhanKhau editNktoTV(){
         for(NhanKhau x : NhanKhauManager.nhanKhauList){
             if(x.getSoCMT_CCCD() == Integer.parseInt(txtCCCD.getText())){
-                x.setGhiChu("Tam vang");
+                x.setGhiChu("Tạm vắng");
                 DataAccess.nhanKhauDAO.update(x);
                 return x;
             }

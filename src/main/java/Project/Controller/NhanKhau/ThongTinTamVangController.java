@@ -66,8 +66,8 @@ ThongTinTamVangController implements Initializable {
             for(NhanKhau x : NhanKhauManager.nhanKhauList){
                 if(x.getSoCMT_CCCD() == NhanKhauController.nhanKhauClick.getSoCMT_CCCD()){
                     nhanKhau1 = x;
-                    nhanKhau1.setGhiChu("Huy Tam Vang");
-                    x.setGhiChu("Huy tam vang");
+                    nhanKhau1.setGhiChu("Hủy tạm vắng");
+                    x.setGhiChu("Hủy tạm vắng");
                     TamVangManager.List.remove(tamVang);
                     DataAccess.tamVangDAO.delete(tamVang);
                     NhanKhauManager.nhanKhauList.remove(x);
