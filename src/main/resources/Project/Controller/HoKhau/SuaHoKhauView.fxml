@@ -66,11 +66,11 @@
          <font>
             <Font size="18.0" />
          </font></TextField>
-      <Button layoutX="510.0" layoutY="292.0" mnemonicParsing="false" onAction="#xoaThanhVien" prefHeight="30.0" prefWidth="140.0" style="-fx-background-color: #6E6E6E;" text="Xóa" textFill="WHITE" AnchorPane.rightAnchor="150.0" AnchorPane.topAnchor="292.0">
+      <Button layoutX="253.0" layoutY="292.0" mnemonicParsing="false" onAction="#xoaThanhVien" prefHeight="30.0" prefWidth="140.0" style="-fx-background-color: #E55249;" text="Xóa" textFill="WHITE" AnchorPane.rightAnchor="407.0" AnchorPane.topAnchor="292.0">
          <font>
             <Font size="18.0" />
          </font></Button>
-      <Button layoutX="270.0" layoutY="292.0" mnemonicParsing="false" onAction="#themThanhVien" prefHeight="30.0" prefWidth="140.0" style="-fx-background-color: #6E6E6E;" text="Thêm" textFill="WHITE" AnchorPane.leftAnchor="270.0" AnchorPane.topAnchor="292.0">
+      <Button layoutX="440.0" layoutY="292.0" mnemonicParsing="false" onAction="#themThanhVien" prefHeight="30.0" prefWidth="140.0" style="-fx-background-color: #1D964B;" text="Thêm" textFill="WHITE" AnchorPane.leftAnchor="440.0" AnchorPane.topAnchor="292.0">
          <font>
             <Font size="18.0" />
          </font></Button>
@@ -81,11 +81,11 @@
             <TableColumn fx:id="tvQuanHeChuHoColumn" minWidth="9.472503662109375" prefWidth="149.1727294921875" text="Quan hệ với chủ hộ" />
         </columns>
       </TableView>
-      <Button layoutX="490.0" layoutY="569.0" mnemonicParsing="false" onAction="#luu" prefHeight="50.0" prefWidth="140.0" style="-fx-background-color: #6E6E6E;" text="Lưu" textFill="WHITE" AnchorPane.bottomAnchor="31.0" AnchorPane.rightAnchor="170.0">
+      <Button layoutX="490.0" layoutY="569.0" mnemonicParsing="false" onAction="#luu" prefHeight="50.0" prefWidth="140.0" style="-fx-background-color: #1D964B;" text="Lưu" textFill="WHITE" AnchorPane.bottomAnchor="31.0" AnchorPane.rightAnchor="170.0">
          <font>
             <Font size="18.0" />
          </font></Button>
-      <Button layoutX="176.0" layoutY="569.0" mnemonicParsing="false" onAction="#huy" prefHeight="50.0" prefWidth="140.0" style="-fx-background-color: #6E6E6E;" text="Hủy" textFill="WHITE" AnchorPane.bottomAnchor="31.0" AnchorPane.leftAnchor="176.0">
+      <Button layoutX="176.0" layoutY="569.0" mnemonicParsing="false" onAction="#huy" prefHeight="50.0" prefWidth="140.0" style="-fx-background-color: #E55249;" text="Hủy" textFill="WHITE" AnchorPane.bottomAnchor="31.0" AnchorPane.leftAnchor="176.0">
          <font>
             <Font size="18.0" />
          </font></Button>

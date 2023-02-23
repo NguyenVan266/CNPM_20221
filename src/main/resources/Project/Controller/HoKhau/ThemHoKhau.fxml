@@ -75,11 +75,11 @@
          <font>
             <Font size="18.0" />
          </font></Label>
-        <Button fx:id="btnThemThanhVien" layoutX="371.0" layoutY="415.0" mnemonicParsing="false" onAction="#themThanhVien" prefHeight="26.0" prefWidth="140.0" style="-fx-background-color: #6E6E6E;" text="Thêm" textFill="WHITE" AnchorPane.leftAnchor="300.0" AnchorPane.topAnchor="412.0">
+        <Button fx:id="btnThemThanhVien" layoutX="371.0" layoutY="415.0" mnemonicParsing="false" onAction="#themThanhVien" prefHeight="26.0" prefWidth="140.0" style="-fx-background-color: #1D964B;" text="Thêm" textFill="WHITE" AnchorPane.leftAnchor="300.0" AnchorPane.topAnchor="412.0">
          <font>
             <Font size="18.0" />
          </font></Button>
-        <Button fx:id="btnXoaThanhVien" layoutX="492.0" layoutY="415.0" mnemonicParsing="false" onAction="#xoaNhanKhau" prefHeight="26.0" prefWidth="140.0" style="-fx-background-color: #6E6E6E;" text="Xóa" textFill="WHITE" AnchorPane.rightAnchor="120.0" AnchorPane.topAnchor="412.0">
+        <Button fx:id="btnXoaThanhVien" layoutX="492.0" layoutY="415.0" mnemonicParsing="false" onAction="#xoaNhanKhau" prefHeight="26.0" prefWidth="140.0" style="-fx-background-color: #E55249;" text="Xóa" textFill="WHITE" AnchorPane.rightAnchor="120.0" AnchorPane.topAnchor="412.0">
          <font>
             <Font size="18.0" />
          </font></Button>
@@ -90,11 +90,11 @@
                 <TableColumn fx:id="colHoTen" prefWidth="216.50028228759766" text="Họ và tên" />
             </columns>
         </TableView>
-        <Button layoutX="149.0" layoutY="636.0" mnemonicParsing="false" onAction="#huy" prefHeight="50.0" prefWidth="140.0" style="-fx-background-color: #6E6E6E;" text="Hủy" textFill="WHITE" AnchorPane.bottomAnchor="14.0" AnchorPane.leftAnchor="149.0">
+        <Button layoutX="149.0" layoutY="636.0" mnemonicParsing="false" onAction="#huy" prefHeight="50.0" prefWidth="140.0" style="-fx-background-color: #E55249;" text="Hủy" textFill="WHITE" AnchorPane.bottomAnchor="14.0" AnchorPane.leftAnchor="149.0">
          <font>
             <Font size="18.0" />
          </font></Button>
-        <Button layoutX="507.0" layoutY="636.0" mnemonicParsing="false" onAction="#xacnhan" prefHeight="50.0" prefWidth="140.0" style="-fx-background-color: #6E6E6E;" text="Lưu" textFill="WHITE" AnchorPane.bottomAnchor="14.0" AnchorPane.rightAnchor="153.0">
+        <Button layoutX="507.0" layoutY="636.0" mnemonicParsing="false" onAction="#xacnhan" prefHeight="50.0" prefWidth="140.0" style="-fx-background-color: #1D964B;" text="Lưu" textFill="WHITE" AnchorPane.bottomAnchor="14.0" AnchorPane.rightAnchor="153.0">
          <font>
             <Font size="18.0" />
          </font></Button>

@@ -21,11 +21,11 @@
          <font>
             <Font size="18.0" />
          </font></TextField>
-      <Button fx:id="btnXacNhan" layoutX="380.0" layoutY="211.0" mnemonicParsing="false" onAction="#xacnhan" prefHeight="50.0" prefWidth="140.0" style="-fx-background-color: #6E6E6E;" text="Xác nhận" textFill="WHITE" AnchorPane.rightAnchor="120.0" AnchorPane.topAnchor="180.0">
+      <Button fx:id="btnXacNhan" layoutX="380.0" layoutY="211.0" mnemonicParsing="false" onAction="#xacnhan" prefHeight="50.0" prefWidth="140.0" style="-fx-background-color: #1D964B;" text="Xác nhận" textFill="WHITE" AnchorPane.rightAnchor="120.0" AnchorPane.topAnchor="180.0">
          <font>
             <Font size="18.0" />
          </font></Button>
-      <Button fx:id="btnHuy" layoutX="298.0" layoutY="211.0" mnemonicParsing="false" onAction="#huy" prefHeight="50.0" prefWidth="140.0" style="-fx-background-color: #6E6E6E;" text="Hủy" textFill="WHITE" AnchorPane.leftAnchor="120.0" AnchorPane.topAnchor="180.0">
+      <Button fx:id="btnHuy" layoutX="298.0" layoutY="211.0" mnemonicParsing="false" onAction="#huy" prefHeight="50.0" prefWidth="140.0" style="-fx-background-color: #E55249;" text="Hủy" textFill="WHITE" AnchorPane.leftAnchor="120.0" AnchorPane.topAnchor="180.0">
          <font>
             <Font size="18.0" />
          </font></Button>

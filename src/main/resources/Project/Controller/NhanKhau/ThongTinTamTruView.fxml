@@ -53,7 +53,7 @@
          <font>
             <Font size="18.0" />
          </font></TextField>
-      <Button fx:id="btnXacNhan" layoutX="204.0" layoutY="629.0" mnemonicParsing="false" onAction="#actXacNhan" prefHeight="50.0" prefWidth="140.0" style="-fx-background-color: #6E6E6E;" text="Xác nhận" textFill="WHITE" AnchorPane.bottomAnchor="50.0" AnchorPane.leftAnchor="120.0">
+      <Button fx:id="btnXacNhan" layoutX="330.0" layoutY="550.0" mnemonicParsing="false" onAction="#actXacNhan" prefHeight="50.0" prefWidth="140.0" style="-fx-background-color: #1D964B;" text="Xác nhận" textFill="WHITE" AnchorPane.bottomAnchor="50.0" AnchorPane.leftAnchor="330.0">
          <font>
             <Font size="18.0" />
          </font></Button>
@@ -62,7 +62,7 @@
             <Font size="18.0" />
          </font>
       </Text>
-      <Button fx:id="btnHuy" mnemonicParsing="false" onAction="#actHuy" prefHeight="50.0" prefWidth="140.0" style="-fx-background-color: #6E6E6E;" text="Hủy" textFill="WHITE" AnchorPane.bottomAnchor="50.0" AnchorPane.rightAnchor="120.0">
+      <Button fx:id="btnHuy" mnemonicParsing="false" onAction="#actHuy" prefHeight="50.0" prefWidth="140.0" style="-fx-background-color: #E55249;" text="Hủy" textFill="WHITE" AnchorPane.bottomAnchor="50.0" AnchorPane.rightAnchor="120.0">
          <font>
             <Font size="18.0" />
          </font></Button>
@@ -85,7 +85,7 @@
          <font>
             <Font size="18.0" />
          </font></Text>
-      <Button fx:id="btnXoaTamTru" layoutX="330.0" layoutY="700.0" mnemonicParsing="false" onAction="#actXoaTamTru" prefHeight="50.0" prefWidth="140.0" style="-fx-background-color: #6E6E6E;" text="Xóa Tạm Trú" textFill="WHITE" AnchorPane.bottomAnchor="50.0">
+      <Button fx:id="btnXoaTamTru" layoutX="115.0" layoutY="550.0" mnemonicParsing="false" onAction="#actXoaTamTru" prefHeight="50.0" prefWidth="140.0" style="-fx-background-color: #E55249;" text="Xóa Tạm Trú" textFill="WHITE" AnchorPane.bottomAnchor="50.0">
          <font>
             <Font size="18.0" />
          </font></Button>

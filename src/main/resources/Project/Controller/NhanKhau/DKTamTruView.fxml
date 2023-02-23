@@ -56,7 +56,7 @@
          <font>
             <Font size="18.0" />
          </font></TextField>
-      <Button fx:id="btnXacNhan" layoutX="511.0" layoutY="666.0" mnemonicParsing="false" onAction="#actXacNhan" prefHeight="50.0" prefWidth="140.0" style="-fx-background-color: #6E6E6E;" text="Xác nhận" textFill="WHITE" AnchorPane.bottomAnchor="39.14453125" AnchorPane.rightAnchor="149.0">
+      <Button fx:id="btnXacNhan" layoutX="511.0" layoutY="666.0" mnemonicParsing="false" onAction="#actXacNhan" prefHeight="50.0" prefWidth="140.0" style="-fx-background-color: #1D964B;" text="Xác nhận" textFill="WHITE" AnchorPane.bottomAnchor="39.14453125" AnchorPane.rightAnchor="149.0">
          <font>
             <Font size="18.0" />
          </font></Button>
@@ -65,7 +65,7 @@
             <Font size="18.0" />
          </font>
       </Text>
-      <Button fx:id="btnHuy" layoutX="146.0" layoutY="666.0" mnemonicParsing="false" onAction="#actHuy" prefHeight="50.0" prefWidth="140.0" style="-fx-background-color: #6E6E6E;" text="Hủy" textFill="WHITE" AnchorPane.bottomAnchor="39.14453125" AnchorPane.leftAnchor="146.0">
+      <Button fx:id="btnHuy" layoutX="146.0" layoutY="666.0" mnemonicParsing="false" onAction="#actHuy" prefHeight="50.0" prefWidth="140.0" style="-fx-background-color: #E55249;" text="Hủy" textFill="WHITE" AnchorPane.bottomAnchor="39.14453125" AnchorPane.leftAnchor="146.0">
          <font>
             <Font size="18.0" />
          </font></Button>
@@ -80,7 +80,7 @@
             <Font size="18.0" />
          </font>
       </Text>
-      <TextField fx:id="DienThoai" layoutX="195.0" layoutY="388.0" prefHeight="39.0" prefWidth="398.0" AnchorPane.rightAnchor="122.0" AnchorPane.topAnchor="412.0">
+      <TextField fx:id="DienThoai" layoutX="195.0" layoutY="388.0" prefHeight="39.0" prefWidth="398.0" promptText="Nhập đủ 10 số" AnchorPane.rightAnchor="122.0" AnchorPane.topAnchor="412.0">
          <font>
             <Font size="18.0" />
          </font></TextField>

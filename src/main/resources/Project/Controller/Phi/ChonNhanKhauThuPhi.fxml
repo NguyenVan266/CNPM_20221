@@ -19,15 +19,18 @@
             <Font name="System Bold" size="29.0" />
          </font>
       </Text>
-      <Button fx:id="btnXacNhan" layoutX="393.0" layoutY="345.0" mnemonicParsing="false" onAction="#actXacNhan" prefHeight="50.0" prefWidth="116.0" style="-fx-background-color: #6E6E6E;" text="Xác nhận" textFill="WHITE">
+      <Button fx:id="btnXacNhan" layoutX="393.0" layoutY="345.0" mnemonicParsing="false" onAction="#actXacNhan" prefHeight="50.0" prefWidth="116.0" style="-fx-background-color: #1D964B;" text="Xác nhận" textFill="WHITE">
          <font>
             <Font size="18.0" />
          </font></Button>
-      <Button fx:id="btnXoa" layoutX="97.0" layoutY="345.0" mnemonicParsing="false" onAction="#actXoa" prefHeight="50.0" prefWidth="116.0" style="-fx-background-color: #6E6E6E;" text="Xoá" textFill="WHITE">
+      <Button fx:id="btnXoa" layoutX="97.0" layoutY="345.0" mnemonicParsing="false" onAction="#actXoa" prefHeight="50.0" prefWidth="116.0" style="-fx-background-color: #E55249;" text="Xoá" textFill="WHITE">
          <font>
             <Font size="18.0" />
          </font></Button>
-      <TextField fx:id="txtTimKiem" layoutX="54.0" layoutY="84.0" onAction="#actTimKiem" prefHeight="39.0" prefWidth="491.0" promptText="Tìm kiếm" />
+      <TextField fx:id="txtTimKiem" layoutX="54.0" layoutY="84.0" onAction="#actTimKiem" prefHeight="39.0" prefWidth="491.0" promptText="Tìm kiếm">
+         <font>
+            <Font size="18.0" />
+         </font></TextField>
       <TableView fx:id="tableView" layoutX="54.0" layoutY="138.0" prefHeight="186.0" prefWidth="491.0">
         <columns>
           <TableColumn fx:id="CCCD" prefWidth="113.0" text="Số CCCD/CMND" />

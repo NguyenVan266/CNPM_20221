@@ -78,7 +78,7 @@
             <TableColumn fx:id="colQuanHe" prefWidth="143.0" text="Quan hệ với chủ hộ" />
          </columns>
       </TableView>
-      <Button layoutX="330.0" layoutY="586.0" mnemonicParsing="false" onAction="#dong" prefHeight="50.0" prefWidth="140.0" style="-fx-background-color: #6E6E6E;" text="Đóng" textFill="WHITE" AnchorPane.bottomAnchor="14.0" AnchorPane.leftAnchor="330.0">
+      <Button layoutX="330.0" layoutY="586.0" mnemonicParsing="false" onAction="#dong" prefHeight="50.0" prefWidth="140.0" style="-fx-background-color: #E55249;" text="Đóng" textFill="WHITE" AnchorPane.bottomAnchor="14.0" AnchorPane.leftAnchor="330.0">
          <font>
             <Font size="20.0" />
          </font></Button>

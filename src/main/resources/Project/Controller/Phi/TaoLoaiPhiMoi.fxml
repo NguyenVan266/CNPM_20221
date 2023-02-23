@@ -37,12 +37,12 @@
             <Font size="20.0" />
          </font>
       </RadioButton>
-      <Button fx:id="btnHuy" layoutX="82.0" layoutY="350.0" mnemonicParsing="false" onAction="#actHuy" prefHeight="50.0" prefWidth="140.0" style="-fx-background-color: #6E6E6E;" text="Huỷ" textFill="WHITE" AnchorPane.bottomAnchor="50.0" AnchorPane.leftAnchor="82.0">
+      <Button fx:id="btnHuy" layoutX="82.0" layoutY="350.0" mnemonicParsing="false" onAction="#actHuy" prefHeight="50.0" prefWidth="140.0" style="-fx-background-color: #E55249;" text="Huỷ" textFill="WHITE" AnchorPane.bottomAnchor="50.0" AnchorPane.leftAnchor="82.0">
          <font>
             <Font size="18.0" />
          </font>
       </Button>
-      <Button fx:id="btnXacNhan" layoutX="409.0" layoutY="350.0" mnemonicParsing="false" onAction="#actXacNhan" prefHeight="50.0" prefWidth="140.0" style="-fx-background-color: #6E6E6E;" text="Xác nhận" textFill="WHITE" AnchorPane.bottomAnchor="50.0" AnchorPane.rightAnchor="101.0">
+      <Button fx:id="btnXacNhan" layoutX="409.0" layoutY="350.0" mnemonicParsing="false" onAction="#actXacNhan" prefHeight="50.0" prefWidth="140.0" style="-fx-background-color: #1D964B;" text="Xác nhận" textFill="WHITE" AnchorPane.bottomAnchor="50.0" AnchorPane.rightAnchor="101.0">
          <font>
             <Font size="18.0" />
          </font>

@@ -23,11 +23,11 @@
             <TableColumn fx:id="diaChi" prefWidth="289.0" text="Địa chỉ " />
         </columns>
       </TableView>
-      <Button fx:id="btnThemNguoiNop" layoutX="341.0" layoutY="575.0" mnemonicParsing="false" onAction="#actThemNguoiNop" prefHeight="44.0" prefWidth="180.0" style="-fx-background-color: #6E6E6E;" text="Thêm người nộp" textFill="WHITE">
+      <Button fx:id="btnThemNguoiNop" layoutX="341.0" layoutY="575.0" mnemonicParsing="false" onAction="#actThemNguoiNop" prefHeight="44.0" prefWidth="180.0" style="-fx-background-color: #1D964B;" text="Thêm người nộp" textFill="WHITE">
          <font>
             <Font size="18.0" />
          </font></Button>
-      <Button fx:id="btnXoa" layoutX="573.0" layoutY="575.0" mnemonicParsing="false" onAction="#actXoa" prefHeight="44.0" prefWidth="180.0" style="-fx-background-color: #6E6E6E;" text="Xoá" textFill="WHITE">
+      <Button fx:id="btnXoa" layoutX="573.0" layoutY="575.0" mnemonicParsing="false" onAction="#actXoa" prefHeight="44.0" prefWidth="180.0" style="-fx-background-color: #E55249;" text="Xoá" textFill="WHITE">
          <font>
             <Font size="18.0" />
          </font></Button>
@@ -40,7 +40,7 @@
             <Font size="18.0" />
          </font>
       </MenuButton>
-      <Button fx:id="btnTaoPhiMoi" layoutX="105.0" layoutY="575.0" mnemonicParsing="false" onAction="#actTaoPhiMoi" prefHeight="44.0" prefWidth="180.0" style="-fx-background-color: #6E6E6E;" text="Tạo phí mới" textFill="WHITE">
+      <Button fx:id="btnTaoPhiMoi" layoutX="105.0" layoutY="575.0" mnemonicParsing="false" onAction="#actTaoPhiMoi" prefHeight="44.0" prefWidth="180.0" style="-fx-background-color: #1D964B;" text="Tạo phí mới" textFill="WHITE">
          <font>
             <Font size="18.0" />
          </font></Button>

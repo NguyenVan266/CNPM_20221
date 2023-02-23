@@ -47,12 +47,12 @@
          </font>
       </Text>
       <TextArea fx:id="txtLyDo" layoutX="171.0" layoutY="395.0" prefHeight="0.0" prefWidth="370.0" AnchorPane.bottomAnchor="120.0" AnchorPane.leftAnchor="250.0" AnchorPane.rightAnchor="120.0" AnchorPane.topAnchor="320.0" />
-      <DatePicker fx:id="dateNgayMat" layoutX="170.0" layoutY="147.0" prefHeight="25.0" prefWidth="187.0" AnchorPane.leftAnchor="250.0" AnchorPane.topAnchor="220.0" />
+      <DatePicker fx:id="dateNgayMat" layoutX="250.0" layoutY="212.0" prefHeight="39.0" prefWidth="187.0" AnchorPane.leftAnchor="250.0" AnchorPane.topAnchor="212.0" />
       <Text layoutX="50.0" layoutY="185.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Ngày mất:" AnchorPane.leftAnchor="120.0" AnchorPane.topAnchor="220.0">
          <font>
             <Font size="18.0" />
          </font></Text>
-      <TextField fx:id="txtSo" layoutX="170.0" layoutY="198.0" prefHeight="26.0" prefWidth="187.0" AnchorPane.leftAnchor="250.0" AnchorPane.topAnchor="270.0" />
+      <TextField fx:id="txtSo" layoutX="250.0" layoutY="262.0" prefHeight="39.0" prefWidth="187.0" AnchorPane.leftAnchor="250.0" AnchorPane.topAnchor="262.0" />
       <Text layoutX="50.0" layoutY="250.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Số giấy khai tử:" AnchorPane.leftAnchor="120.0" AnchorPane.topAnchor="270.0">
          <font>
             <Font size="18.0" />
@@ -62,11 +62,11 @@
             <Font name="System Bold" size="29.0" />
          </font>
       </Label>
-      <Button fx:id="btnXacNhan" layoutX="259.0" layoutY="561.0" mnemonicParsing="false" onAction="#actXacNhan" prefHeight="50.0" prefWidth="140.0" style="-fx-background-color: #6E6E6E;" text="Xác Nhận" textFill="WHITE" AnchorPane.bottomAnchor="50.0" AnchorPane.rightAnchor="120.0">
+      <Button fx:id="btnXacNhan" layoutX="259.0" layoutY="561.0" mnemonicParsing="false" onAction="#actXacNhan" prefHeight="50.0" prefWidth="140.0" style="-fx-background-color: #1D964B;" text="Xác Nhận" textFill="WHITE" AnchorPane.bottomAnchor="50.0" AnchorPane.rightAnchor="120.0">
          <font>
             <Font size="18.0" />
          </font></Button>
-      <Button fx:id="btnHuy" layoutX="540.0" layoutY="558.0" mnemonicParsing="false" onAction="#actHuy" prefHeight="50.0" prefWidth="140.0" style="-fx-background-color: #6E6E6E;" text="Huỷ" textFill="WHITE" AnchorPane.bottomAnchor="50.0" AnchorPane.leftAnchor="120.0">
+      <Button fx:id="btnHuy" layoutX="540.0" layoutY="558.0" mnemonicParsing="false" onAction="#actHuy" prefHeight="50.0" prefWidth="140.0" style="-fx-background-color: #E55249;" text="Huỷ" textFill="WHITE" AnchorPane.bottomAnchor="50.0" AnchorPane.leftAnchor="120.0">
          <font>
             <Font size="18.0" />
          </font></Button>

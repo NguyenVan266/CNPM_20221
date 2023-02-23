@@ -49,11 +49,11 @@
             <Font size="18.0" />
          </font>
       </Text>
-      <Button fx:id="btnHuy" layoutX="430.0" layoutY="473.0" mnemonicParsing="false" onAction="#actHuy" prefHeight="50.0" prefWidth="140.0" style="-fx-background-color: #6E6E6E;" text="Hủy" textFill="WHITE" AnchorPane.bottomAnchor="50.0" AnchorPane.leftAnchor="100.0">
+      <Button fx:id="btnHuy" layoutX="430.0" layoutY="473.0" mnemonicParsing="false" onAction="#actHuy" prefHeight="50.0" prefWidth="140.0" style="-fx-background-color: #E55249;" text="Hủy" textFill="WHITE" AnchorPane.bottomAnchor="50.0" AnchorPane.leftAnchor="100.0">
          <font>
             <Font size="18.0" />
          </font></Button>
-      <Button fx:id="btnXacNhan" layoutX="220.0" layoutY="522.0" mnemonicParsing="false" onAction="#actXacNhan" prefHeight="50.0" prefWidth="140.0" style="-fx-background-color: #6E6E6E;" text="Xác Nhận" textFill="WHITE" AnchorPane.bottomAnchor="50.0" AnchorPane.rightAnchor="100.0">
+      <Button fx:id="btnXacNhan" layoutX="220.0" layoutY="522.0" mnemonicParsing="false" onAction="#actXacNhan" prefHeight="50.0" prefWidth="140.0" style="-fx-background-color: #1D964B;" text="Xác Nhận" textFill="WHITE" AnchorPane.bottomAnchor="50.0" AnchorPane.rightAnchor="100.0">
          <font>
             <Font size="18.0" />
          </font></Button>

@@ -1,5 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
 <?import javafx.scene.control.Button?>
 <?import javafx.scene.control.ComboBox?>
 <?import javafx.scene.control.DatePicker?>
@@ -10,7 +14,7 @@
 <?import javafx.scene.text.Font?>
 <?import javafx.scene.text.Text?>
 
-<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="650.0" prefWidth="825.0" style="-fx-background-color: #daf7c9;" styleClass="pane" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Project.Controller.NhanKhau.ThemNhanKhauController">
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="650.0" prefWidth="825.0" style="-fx-background-color: #daf7c9;" styleClass="pane" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Project.Controller.NhanKhau.ThemNhanKhauController">
    <children>
       <Text layoutX="295.0" layoutY="58.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Thêm Nhân Khẩu" textAlignment="CENTER">
          <font>
@@ -125,11 +129,11 @@
          </font>
       </Text>
       <TextArea fx:id="ghiChu" layoutX="202.0" layoutY="485.0" prefHeight="64.0" prefWidth="568.0" />
-      <Button fx:id="huy" cancelButton="true" layoutX="231.0" layoutY="470.0" mnemonicParsing="false" onAction="#actHuy" prefHeight="50.0" prefWidth="140.0" style="-fx-background-color: #E55249;" stylesheets="@stylecss/huy.css" text="Hủy" textFill="WHITE" translateY="100.0">
+      <Button fx:id="huy" cancelButton="true" layoutX="273.0" layoutY="470.0" mnemonicParsing="false" onAction="#actHuy" prefHeight="50.0" prefWidth="140.0" style="-fx-background-color: #E55249;" stylesheets="@stylecss/huy.css" text="Hủy" textFill="WHITE" translateY="100.0">
          <font>
             <Font size="18.0" />
          </font></Button>
-      <Button defaultButton="true" layoutX="466.0" layoutY="470.0" mnemonicParsing="false" onAction="#actXacNhan" prefHeight="50.0" prefWidth="140.0" style="-fx-background-color: #1D964B;" stylesheets="@stylecss/xacnhan.css" text="Xác nhận" textFill="WHITE" translateY="100.0" fx:id="xacNhan">
+      <Button defaultButton="true" layoutX="490.0" layoutY="470.0" mnemonicParsing="false" onAction="#actXacNhan" prefHeight="50.0" prefWidth="140.0" style="-fx-background-color: #1D964B;" stylesheets="@stylecss/xacnhan.css" text="Xác nhận" textFill="WHITE" translateY="100.0" fx:id="xacNhan">
          <font>
             <Font size="18.0" />
          </font></Button>

@@ -35,11 +35,11 @@
          <font>
             <Font size="18.0" />
          </font></Button>
-      <Button layoutX="373.0" layoutY="361.0" mnemonicParsing="false" onAction="#huy" prefHeight="50.0" prefWidth="140.0" style="-fx-background-color: #6E6E6E;" text="Hủy" textFill="WHITE" AnchorPane.bottomAnchor="50.0" AnchorPane.rightAnchor="100.0">
+      <Button layoutX="260.0" layoutY="550.0" mnemonicParsing="false" onAction="#huy" prefHeight="50.0" prefWidth="140.0" style="-fx-background-color: #E55249;" text="Hủy" textFill="WHITE" AnchorPane.bottomAnchor="50.0" AnchorPane.rightAnchor="550.0">
          <font>
             <Font size="18.0" />
          </font></Button>
-      <Button layoutX="503.0" layoutY="426.0" mnemonicParsing="false" onAction="#xacNhan" prefHeight="50.0" prefWidth="140.0" style="-fx-background-color: #6E6E6E;" text="Xác nhận" textFill="WHITE" AnchorPane.bottomAnchor="50.0" AnchorPane.leftAnchor="100.0">
+      <Button layoutX="547.0" layoutY="550.0" mnemonicParsing="false" onAction="#xacNhan" prefHeight="50.0" prefWidth="140.0" style="-fx-background-color: #1D964B;" text="Xác nhận" textFill="WHITE" AnchorPane.bottomAnchor="50.0" AnchorPane.leftAnchor="550.0">
          <font>
             <Font size="18.0" />
          </font></Button>
