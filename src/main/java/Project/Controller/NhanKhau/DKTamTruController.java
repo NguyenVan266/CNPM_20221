@@ -85,7 +85,7 @@ public class DKTamTruController implements Initializable {
             nhanKhau.setHoTen(txtHoTen.getText());
             nhanKhau.setDienThoai(DienThoai.getText());
             nhanKhau.setID(tamTru.getIdNhanKhau());
-            nhanKhau.setGhiChu("Tam tru");
+            nhanKhau.setGhiChu("Tạm trú");
             NhanKhauManager.nhanKhauList.add(nhanKhau);
             DataAccess.nhanKhauDAO.insert(nhanKhau);
             DataAccess.tamTruDAO.insert(tamTru);

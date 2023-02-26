@@ -149,7 +149,7 @@ public class NhanKhauController implements Initializable {
     void actDSTamTru(ActionEvent event) {
         ObservableList<NhanKhau> dataTamTru = FXCollections.observableArrayList();
         for(NhanKhau x : NhanKhauManager.nhanKhauList){
-            if(x.getGhiChu().equals("Tam tru")){
+            if(x.getGhiChu() != null && x.getGhiChu().equals("Tạm trú")){
                 dataTamTru.add(x);
             }
         }
@@ -200,7 +200,7 @@ public class NhanKhauController implements Initializable {
     void clickAction(MouseEvent event) throws IOException, SQLException {
         if(event.getClickCount() == 2){
             nhanKhauClick = tableView.getSelectionModel().getSelectedItem();
-            if(nhanKhauClick.getGhiChu().equals("Tam tru")){
+            if(nhanKhauClick.getGhiChu().equals("Tạm trú")){
                 FXMLLoader fxmlLoader = new FXMLLoader(Main.class.getResource("NhanKhau/ThongTinTamTruView.fxml"));
                 Parent parent = fxmlLoader.load();
                 Stage stage1 = new Stage();
@@ -209,7 +209,7 @@ public class NhanKhauController implements Initializable {
                 stage1.setScene(scene1);
                 stage1.showAndWait();
                 readDataFromDB();
-            }else if(nhanKhauClick.getGhiChu().equals("Tam vang")){
+            }else if(nhanKhauClick.getGhiChu().equals("Tạm vắng")){
                 FXMLLoader fxmlLoader = new FXMLLoader(Main.class.getResource("NhanKhau/ThongTinTamVangView.fxml"));
                 Parent parent = fxmlLoader.load();
                 Stage stage1 = new Stage();

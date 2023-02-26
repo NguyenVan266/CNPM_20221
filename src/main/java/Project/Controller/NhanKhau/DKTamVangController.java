@@ -116,7 +116,7 @@ public class DKTamVangController {
     int checkisNhanKhau(){
         for(NhanKhau x : NhanKhauManager.nhanKhauList){
             if(x.getSoCMT_CCCD() == Integer.parseInt(txtCCCD.getText())) {
-                if(x.getGhiChu().equals("Tam tru")) {
+                if(x.getGhiChu().equals("Tạm trú")) {
                     return 2;
                 }else {
                     return 1;

@@ -56,7 +56,7 @@ ThongTinTamVangController implements Initializable {
 
         Alert alert = new Alert(Alert.AlertType.CONFIRMATION);
         alert.setTitle("Xóa tạm trú");
-        alert.setHeaderText("Bạn có chắc muốn xóa người này");
+        alert.setHeaderText("Bạn có chắc muốn xóa người này?");
 
         Optional<ButtonType> option = alert.showAndWait();
 
