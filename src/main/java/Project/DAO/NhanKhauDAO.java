@@ -61,7 +61,7 @@ public class NhanKhauDAO implements DAO<NhanKhau>{
             Connection con= JDBCUtil.getConnection();
             String sql="UPDATE nhan_khau "+"SET soCMT_CCCD = ? , hoTen = ? , ngaySinh = ? , gioiTinh=? , " +
                     "noiSinh = ? , nguyenQuan = ? , danToc = ? , quocTich = ? , soHoChieu = ? , noiThuongTru = ? , " +
-                    "diaChiHienTai = ? , tonGiao = ? , ghiChu = ?, ngayTao = ? , idNguoiXoa = ?, ngayXoa = ?, " +
+                    "diaChiHienTai = ? , tonGiao = ? , ghiChu = ?, ngayTao = ? , idNguoiTao = ?, ngayXoa = ?, " +
                     "idNguoiXoa = ? , lyDoXoa = ? , dienThoai = ? " +
                     "WHERE id = ?";
             PreparedStatement st=con.prepareStatement(sql);

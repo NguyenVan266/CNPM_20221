@@ -67,7 +67,7 @@ public class KhaiTuController {
             khaiTu.setLyDoChet(txtLyDo.getText());
             new KhaiTuDAO().insert(khaiTu);
             nguoiMat = new NhanKhauManager().get(nguoiMat.getID());
-            nguoiMat.setGhiChu("Da Mat");
+            nguoiMat.setGhiChu("Đã mất");
             new NhanKhauDAO().update(nguoiMat);
             Stage stage = (Stage) btnHuy.getScene().getWindow();
             stage.close();
